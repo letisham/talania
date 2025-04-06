@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>image</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+{
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: pink;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: rgb(209, 142, 142);
+  color: rgb(78, 35, 42);
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: Pink;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: Pink;
+  color: rgb(176, 119, 119);
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: rgb(196, 92, 109);
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: rgb(196, 92, 109);
+  padding: 20px;
+}
+
+.gallery {
+      display: grid;
+      grid-template-columns: repeat(4, 5fr);
+      gap: 20px;
+      width: 95%;
+      margin: auto;
+    }
+    
+    .image {
+      width: 100%;
+      height: 200px;
+      border: 2px solid rgb(220, 68, 93);
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition-duration:1s;
+    }
+  
+  .image:hover {
+     -ms-transform:scale(1.5);
+     -webkit-transform:scale(1.5);
+     transform:scale(1.5);
+    
+  }
+    
+    .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+.fakeimg {
+  background-color: rgb(105, 46, 56);
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 2000px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+  
+  .image{
+    height:100px;
+    width:100px;
+    background-color:white;
+    margin-top:3px;
+    margin-left: 1px;
+    transition-duration: .5s;
+    border:double 1px black;
+  }
+  .image:hover
+  {
+    height:100px;
+    width:100px;
+    border: dashed 2px black;
+  }
+  
+  .main{
+    display:flex;
+  }
+  image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+}
+</style>
+</head>
+<body>
+  
+
+<div class="header">
+  <h1>
+    Explore the best of Pinterest
+  </h1>
+  <p>P I N T E R E S T</p>
+</div>
+
+<div class="navbar">
+  <a href="HOME.html">Home</a>
+  <a href="photo.html">Image</a>
+  <a href="About.html">About</a>
+  <a href="log in.html" class="right">Login</a>
+</div>
+
+
+  <h1 style="color: rgb(147, 79, 91); text-align: center;">GALLERY</h1>
+
+  <div class="gallery">
+    <div class="main">
+        <div class="image"><img src="nails.jpg"></div> 
+        <p style="text-align: center;">CHERY RED NAILS</p> 
+<h1 style="text-align: top;">From deep red tones to fruity designs, cherry red nails are now in season.</h1>
+      
+        <div class="image"><img src="18th birthday.jpg"></div> 
+        <p style="text-align: center;">Birthday photoshoot</p> 
+        <h1 style="text-align: top;">Make your birthday a day to remember with these fun photo ideas.</h1>
+
+        <div class="image"><img src="OUTFIT.jpg"></div> 
+        <p style="text-align: center;">Women's fashion</p> 
+        <h1 style="text-align: top;">Fashion is more than clothing: Its a powerful form of self-expression.</h1>
+
+
+        <div class="image"><img src="onitsuka ballet flats.jpg"></div> 
+        <p style="text-align: center;">Ballet flats styledn</p> 
+        <h1 style="text-align: top;">From classic to mesh flats, here are some easy ways to style your comfiest shoes.</h1>
+
+        
+        <div class="image"><img src="download (3).jpg"></div> 
+        <p style="text-align: center;">Women's fashion</p> 
+        <h1 style="text-align: top;">Fashion is more than clothing: Its a powerful form of self-expression.</h1>
+      
+        

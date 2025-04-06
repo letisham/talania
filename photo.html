@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>image</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+{
+
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: rgb(188, 121, 132);
+  color: pink;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: Pink;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: Pink;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%;
+  flex: 30%;
+  background-color: #dea9a9;
+  padding: 20px;
+}
+.main {   
+  -ms-flex: 70%; 
+  flex: 70%;
+  background-color: rgb(216, 149, 149);
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: rgb(186, 95, 125);
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 2000px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+
+  
+  .image{
+    height:100px;
+    width:100px;
+    background-color:white;
+    margin-top:3px;
+    margin-left: 1px;
+    transition-duration: .5s;
+    border:double 1px black;
+  }
+  .image:hover
+  {
+    height:100px;
+    width:100px;
+    border: dashed 2px black;
+  }
+  .main{
+    display:flex;
+  }
+}
+</style>
+</head>
+<body>
+  
+
+<div class="header">
+  <h1>
+  P I N T E R E S T
+  </h1>
+  <p>A E T H E T I C S P H O T O</p>
+</div>
+
+
+
+<div class="navbar">
+  <a href="HOME.html">Home</a>
+  <a href="photo.html">Image</a>
+  <a href="About.html">About</a>
+  <a href="log in.html" class="right">Login</a>
+</div>
+
+
+  <div class="main"> 
+    <div class="left-section"></div>
+    <div class="box">
+    <h1 style="background-color: #fbf9f9; text-align: center; color: rgb(152, 98, 107);">P I N T E R E S T 
+      <BR>IDEA</h1>
+     <div class="image"><img src="MM.jpg"style="height:340px; width:320px"></div>
+    <div class="image"><img src="PIC 11.jpg"style="height:340px; width:320px"></div>
+    <div class="image"><img src="PIC 12.jpg"style="height:330px; width:320px"></div>
+    <div class="image"><img src="pinterest_ @ gxoxo_ ♡.jpg"style="height:360px; width:320px"></div>
+    
+    <div class="main"> 
+      <h1 style="background-color: #fbf9f9; text-align: center; color: rgb(152, 98, 107);">WOMEN DRESS IDEA</h1>
+      <div class="image"><img src="DRESS1.jpg"style="height:360px; width:320px"></div>
+      <div class="image"><img src="DRESS2.jpg"style="height:320px; width:320px"></div>
+      <div class="image"><img src="DRESS3.jpg"style="height:360px; width:320px"></div>
+      <div class="image"><img src="DRESS4.jpg"style="height:360px; width:320px"></div>
+  </div>
+
+  <div class="main"> 
+    <h1 style="background-color: #fbf9f9; text-align: center; color: rgb(152, 98, 107);">MAKE-UP</h1>
+    <div class="image"><img src="MAKE1.jpg"style="height:360px; width:320px"></div>
+    <div class="image"><img src="MAKE2.jpg"style="height:320px; width:320px"></div>
+    <div class="image"><img src="MAKE3.jpg"style="height:360px; width:320px"></div>
+    <div class="image"><img src="MAKE4.jpg"style="height:360px; width:320px"></div>
+   </div>
+
+   <div class="main"> 
+    <h1 style="background-color: #fbf9f9; text-align: center; color: rgb(152, 98, 107);">HAIR STYLE </h1>
+    <div class="image"><img src="PONY1.jpg"style="height:360px; width:320px"></div>
+    <div class="image"><img src="PONY2.jpg"style="height:320px; width:320px"></div>
+    <div class="image"><img src="PONY3.jpg"style="height:360px; width:320px"></div>
+    <div class="image"><img src="PONY4.jpg"style="height:360px; width:320px"></div>
+   </div>
+
+   <div class="main"> 
+    <h1 style="background-color: #fbf9f9; text-align: center; color: rgb(152, 98, 107);">TULIPS </h1>
+    <div class="image"><img src="TULIPS3.jpg"style="height:360px; width:320px"></div>
+    <div class="image"><img src="TULIPS2.jpg"style="height:320px; width:320px"></div>
+    <div class="image"><img src="TULIPS1.jpg"style="height:360px; width:320px"></div>
+    <div class="image"><img src="TULIPS2.jpg"style="height:360px; width:320px"></div>
+</div>
+  <div class="main">
+    <h1 style="background-color: #fbf9f9; text-align: center; color: rgb(152, 98, 107);">BORDER IDEA</h1>
+    <div class="image"><img src="BORDER1.jpg"style="height:360px; width:320px"></div>
+    <div class="image"><img src="BORDER2.jpg"style="height:320px; width:320px"></div>
+    <div class="image"><img src="BORDER3.jpg"style="height:200px; width:320px"></div>
+    <div class="image"><img src="BORDER4.jpg"style="height:360px; width:320px"></div>
+    
+
+  </div>
+     <div class="footer">
+    &copy; Copyright 2024 All Rights Reserved | Created by LETISHA
+  </div>
